@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>ESP32 Relay Panel</title>
+<style>
+body { background:#0e0e0e; color:white; font-family:Arial; text-align:center; }
+.card { background:#1c1c1c; padding:15px; margin:10px; border-radius:10px; }
+button { padding:15px; margin:5px; font-size:16px; width:100px; }
+.on { background:green; color:white; }
+.off { background:red; color:white; }
+</style>
+</head>
+<body>
+<h1>ESP32 Relay Control</h1>
+)rawliteral";
+
+  const char* labels[8] = {"B","C","S","A","G","M","2","5"};
+
+  for (int i = 0; i < 8; i++) {
+    page += "<div class='card'>";
+    page += "<h3>Relay " + String(i + 1) + " (" + labels[i] + ")</h3>";
+    page += "<a href='/relay/" + String(i) + "/on'><button class='on'>ON</button></a>";
+    page += "<a href='/relay/" + String(i) + "/off'><button class='off'>OFF</button></a>";
+    page += "</div>";
+  }
+
+  page += "</body></html>";
