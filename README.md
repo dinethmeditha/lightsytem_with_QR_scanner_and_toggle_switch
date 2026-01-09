@@ -201,12 +201,12 @@ Feel free to fork this project and submit pull requests for improvements!
 
 ## ⚡ Future Enhancements
 
-- [ ] Add authentication system
-- [ ] Implement timer/scheduling functionality
-- [ ] Add relay status indicators on web interface
-- [ ] Support for MQTT integration
-- [ ] Mobile app development
-- [ ] Voice control integration (Alexa/Google Home)
+- [ ] Add authentication system.
+- [ ] Implement timer/scheduling functionality.
+- [ ] Add relay status indicators on web interface.
+- [ ] Support for MQTT integration.
+- [ ] Mobile app development.
+- [ ] Voice control integration. (Alexa/Google Home)
 
 ## 📞 Support
 
@@ -215,4 +215,5 @@ If you encounter any issues or have questions, please check the troubleshooting 
 ---
 
 **Made with ❤️ for smart home automation**
+
 
